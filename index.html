@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="window">
+   <div class="window_inner">
+      <div class="window_heading">
+         Validation
+      </div>
+      <div class="window resize" >
+         <div class="window_inner">
+            <form>
+               <div><input name="name" type="text" placeholder="name"><br></div>
+               <div><input name="phone" type="tel" placeholder="+7(xxx)xxx-xx-xx"><br></div>
+               <div><input name="mail" type="text" placeholder="mail"><br></div>
+               <div id = "result" class="await-res"></div>
+         </div>
+      </div>
+      <div class="window_wrapper">
+      <input type="button" onclick="validate(this.form)" value="ok" id="validateButton">  
+      </div>
+      </form>
+   </div>
+</div>
+
+<script src="app.js"> </script>
