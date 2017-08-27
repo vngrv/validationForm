@@ -24,7 +24,7 @@ body {
 .await-res {
   max-width: 460px;
   min-height: 29px;
-  height: 118px;
+  height: auto;
   margin: 10px;
   border: 2px solid #808080;
   background: #fff;
@@ -74,7 +74,7 @@ input {
   flex-direction: row-reverse;
 }
 
-input[type='button'] {
+input[type='submit'] {
   width: 100px;
   align-items: center;
   background: #c0c0c0;
@@ -84,6 +84,12 @@ input[type='button'] {
   margin: 1px 5px 5px 5px;
   border-top-color: #fff;
   border-left-color:#fff;
+  border-right-color:  #808080;
+  border-bottom-color: #808080;
+}
+
+input[type='submit']:disabled {
+  color: #808080;
   border-right-color:  #808080;
   border-bottom-color: #808080;
 }
@@ -100,5 +106,4 @@ input[type='button'] {
   border-left-color:#00A886;
   border-right-color:  #00A886;
   border-bottom-color: #00A886;
-
 }
